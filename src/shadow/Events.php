@@ -36,7 +36,7 @@ class Events implements Listener
                 $book = $bookManager?->getBooks($bookType);
 
                 if ($book === null) {
-                    $player->sendMessage(TextFormat::colorize('&cshadow enchantment book'));
+                    $player->sendMessage(TextFormat::colorize('&cUnknown enchantment book'));
                     $event->cancel();
                     return;
                 }

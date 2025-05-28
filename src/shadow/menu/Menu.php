@@ -47,4 +47,5 @@ class Menu
         });
         $menu->send($player, TextFormat::DARK_RED . " Enchantment Books");
     }
+
 }
